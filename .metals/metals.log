@@ -35,3 +35,161 @@ WARNING: Unmatched cancel notification for request id 755
 2022.11.15 23:01:29 INFO  time: evaluated worksheet 'mini-proyecto.worksheet.sc' in 0.81s
 2022.11.15 23:51:15 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Usuario iTC\Desktop\Universidad\Ciclo 3\Programacion\mini-proyecto-programacionFuncional\.metals\lsp.trace.json or C:\Users\Usuario iTC\AppData\Local\scalameta\metals\cache\lsp.trace.json
 2022.11.15 23:51:15 INFO  logging to file C:\Users\Usuario iTC\Desktop\Universidad\Ciclo 3\Programacion\mini-proyecto-programacionFuncional\.metals\metals.log
+2022.11.15 23:51:15 INFO  Started: Metals version 0.11.9 in workspace 'C:\Users\Usuario iTC\Desktop\Universidad\Ciclo 3\Programacion\mini-proyecto-programacionFuncional' for client Visual Studio Code 1.73.1.
+2022.11.15 23:51:16 INFO  time: initialize in 0.99s
+2022.11.15 23:51:18 WARN  Build server is not auto-connectable.
+2022.11.15 23:51:18 WARN  no build tool detected in workspace 'C:\Users\Usuario iTC\Desktop\Universidad\Ciclo 3\Programacion\mini-proyecto-programacionFuncional'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+nov. 15, 2022 11:51:18 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2022.11.15 23:51:20 INFO  no build target found for C:\Users\Usuario iTC\Desktop\Universidad\Ciclo 3\Programacion\mini-proyecto-programacionFuncional\mini-proyecto.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.0
+[31merror[39m: mini-proyecto.worksheet.sc:58:1: 
+Not found: printsimple
+printsimple(funcion_1, 3, 5) - 7.33
+^^^^^^^^^^^
+2022.11.15 23:51:22 INFO  time: code lens generation in 1.87s
+2022.11.15 23:51:22 INFO  time: code lens generation in 3.44s
+2022.11.15 23:51:22 INFO  time: code lens generation in 4.12s
+2022.11.15 23:51:23 INFO  no build target found for C:\Users\Usuario iTC\Desktop\Universidad\Ciclo 3\Programacion\mini-proyecto-programacionFuncional\mini-proyecto.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.0
+2022.11.15 23:51:23 INFO  time: evaluated worksheet 'mini-proyecto.worksheet.sc' in 5.82s
+nov. 15, 2022 11:51:31 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27
+2022.11.15 23:51:38 INFO  file:///C:/Users/Usuario%20iTC/Desktop/Universidad/Ciclo%203/Programacion/mini-proyecto-programacionFuncional/mini-proyecto.worksheet.sc:58:1: stale mdoc error:
+Not found: printsimple
+simple(funcion_1, 3, 5) - 7.33
+^^^^^^^^^^^
+2022.11.15 23:51:38 INFO  file:///C:/Users/Usuario%20iTC/Desktop/Universidad/Ciclo%203/Programacion/mini-proyecto-programacionFuncional/mini-proyecto.worksheet.sc:58:1: stale mdoc error:
+Not found: printsimple
+simple(funcion_1, 3, 5) - 7.33
+^^^^^^^^^^^
+[31merror[39m: mini-proyecto.worksheet.sc:58:7: 
+value - is not a member of String
+print("Margen de error: " + simple(funcion_1, 3, 5) - 7.33)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.11.15 23:51:51 INFO  time: evaluated worksheet 'mini-proyecto.worksheet.sc' in 0.74s
+2022.11.15 23:52:14 INFO  time: evaluated worksheet 'mini-proyecto.worksheet.sc' in 1.98s
+2022.11.15 23:52:15 INFO  time: evaluated worksheet 'mini-proyecto.worksheet.sc' in 1.31s
+nov. 15, 2022 11:53:15 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 110
+2022.11.15 23:53:21 INFO  time: evaluated worksheet 'mini-proyecto.worksheet.sc' in 0.93s
+2022.11.15 23:53:21 INFO  time: evaluated worksheet 'mini-proyecto.worksheet.sc' in 0.82s
+2022.11.15 23:53:34 INFO  no build target found for C:\Users\Usuario iTC\Desktop\mini-proyecto.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.0
+2022.11.15 23:53:34 INFO  time: evaluated worksheet 'mini-proyecto.worksheet.sc' in 1.99s
+Exception in thread "pool-8-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Exception in thread "pool-8-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Exception in thread "pool-8-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Exception in thread "pool-8-thread-4" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Exception in thread "pool-8-thread-5" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Exception in thread "pool-8-thread-6" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Exception in thread "pool-8-thread-7" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+nov. 15, 2022 11:56:43 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 222
+nov. 15, 2022 11:57:18 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 228
+nov. 15, 2022 11:57:18 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 229
+nov. 15, 2022 11:57:18 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 232
+nov. 15, 2022 11:57:32 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 247
+nov. 15, 2022 11:58:16 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 281
+nov. 15, 2022 11:58:16 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 285
+nov. 15, 2022 11:58:16 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 291
+nov. 15, 2022 11:58:16 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 294
+nov. 15, 2022 11:58:27 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 306
+Exception in thread "pool-8-thread-8" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Exception in thread "pool-8-thread-9" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Exception in thread "pool-8-thread-10" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Exception in thread "pool-8-thread-11" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+nov. 16, 2022 12:01:32 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 407
+Exception in thread "pool-8-thread-12" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Exception in thread "pool-8-thread-13" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022.11.16 00:20:18 INFO  time: evaluated worksheet 'mini-proyecto.worksheet.sc' in 0.83s
+nov. 16, 2022 12:20:23 A. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+nov. 16, 2022 12:27:28 A. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.11.16 00:27:30 INFO  shutting down Metals
